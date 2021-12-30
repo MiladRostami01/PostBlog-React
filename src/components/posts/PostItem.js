@@ -1,8 +1,22 @@
 import React from 'react'
+import { useContext } from 'react/cjs/react.development'
+import { favContext } from '../../store/favorites-context'
 import Card from '../ui/Card'
 import styles from './PostItem.module.css'
 
 function PostItem({post}) {
+  const favoritesCtx = useContext(favContext)
+
+  const postIsAdded = favoritesCtx.isAdded(post.id)
+
+  function toggleFavoriteStatusHandler (){
+    if(postIsAdded){
+      favoritesCtx.deleteFavorite(post.id)
+    }else{
+      favoritesCtx.addFavorite(post)
+    }
+  }
+
   return (
     <Card>
       <div className={styles.imgContainer}>
@@ -14,7 +28,7 @@ function PostItem({post}) {
         <p>{post.description}</p>
       </div>
       <div className={styles.btn}>
-        <button>To Favorites</button>    
+        <button onClick={toggleFavoriteStatusHandler}>{postIsAdded ? "Remove from favorites" : "To Favorites" }</button>    
       </div>
     </Card>
   )

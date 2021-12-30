@@ -16,8 +16,10 @@
   margin: 10px 0;
 }
 .content p{
-  width: 80%;
+  width: 85%;
   margin: 15px auto;
+  line-height: 22px;
+  text-align: justify;
 }
 
 .btn{
