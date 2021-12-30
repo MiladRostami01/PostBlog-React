@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react'
 
-export const FavContext = createContext({
+const FavContext = createContext({
   favorite:[],
   total: 0,
   addFavorite: (favoritePost)=>{},
@@ -8,7 +8,7 @@ export const FavContext = createContext({
   isAdded: (postId)=>{},
 })
 
-export default function FavoritesContextProvider (props) {
+export function FavoritesContextProvider (props) {
   const [userFavorites, setUserFavorites] =useState([])
   function addFavorite(favoritePost){
     setUserFavorites(prevFavorites => {
@@ -39,3 +39,4 @@ export default function FavoritesContextProvider (props) {
   )
 }
 
+export default FavContext
