@@ -1,10 +1,10 @@
 import React from 'react'
 import { useContext } from 'react/cjs/react.development'
-import { favContext } from '../store/favorites-context'
+import { FavContext } from '../store/favorites-context'
 import PostList from '../components/posts/PostList'
 
 function Favorites() {
-  const favoritesCtx = useContext(favContext)
+  const favoritesCtx = useContext(FavContext)
 
   let content
   if(favoritesCtx.totalFavorites === 0){

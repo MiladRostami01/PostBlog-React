@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useContext } from 'react/cjs/react.development'
-import { favContext } from '../../../store/favorites-context'
+import { FavContext } from '../../../store/favorites-context'
 import styles from './Navigation.module.css'
 
 function Navigation() {

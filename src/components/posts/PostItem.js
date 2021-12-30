@@ -1,11 +1,11 @@
 import React from 'react'
 import { useContext } from 'react/cjs/react.development'
-import { favContext } from '../../store/favorites-context'
+import { FavContext } from '../../store/favorites-context'
 import Card from '../ui/Card'
 import styles from './PostItem.module.css'
 
 function PostItem({post}) {
-  const favoritesCtx = useContext(favContext)
+  const favoritesCtx = useContext(FavContext)
 
   const postIsAdded = favoritesCtx.isAdded(post.id)
 
