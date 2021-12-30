@@ -10,7 +10,6 @@ export const FavContext = createContext({
 
 export default function FavoritesContextProvider (props) {
   const [userFavorites, setUserFavorites] =useState([])
-  console.log(userFavorites);
   function addFavorite(favoritePost){
     setUserFavorites(prevFavorites => {
       return prevFavorites.concat(favoritePost)

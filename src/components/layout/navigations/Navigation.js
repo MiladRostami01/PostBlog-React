@@ -5,7 +5,7 @@ import { FavContext } from '../../../store/favorites-context'
 import styles from './Navigation.module.css'
 
 function Navigation() {
-  const favoritesCtx =useContext(favContext)
+  const favoritesCtx =useContext(FavContext)
 
   return (
     <header className={styles.header}>
