@@ -1,5 +1,4 @@
-import React from 'react'
-import { useContext } from 'react/cjs/react.development'
+import React, { useContext } from 'react'
 import FavContext from '../../store/favorites-context'
 import Card from '../ui/Card'
 import styles from './PostItem.module.css'
