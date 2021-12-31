@@ -1,3 +1,19 @@
+# Post Blog React App
+
+### What I learn
+- How to fetch data from [Firebase](https://firebase.google.com/?gclid=CjwKCAiA8bqOBhANEiwA-sIlNzflAaONKJx1oYJDZjlYmnR2HAxLdT7PRpegJ81Zr-oE_jNTBLfaCRoCmgkQAvD_BwE&gclsrc=aw.ds) and intract with it 
+- Work with forms in react 
+- How to manage Stats better (be femilair with Context)
+- How to create a SPA (Single Page Application)
+
+### Screenshot
+![](./src/assets/img/Screenshot.png)
+
+### Live
+- فقط قبلش فیلترشکنت رو روشن کن *_^
+- Live Site URL: [Live](https://post-blog-react.vercel.app/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

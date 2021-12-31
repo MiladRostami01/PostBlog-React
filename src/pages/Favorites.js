@@ -1,4 +1,5 @@
-import React, { useContext } from 'react'
+import React from 'react'
+import { useContext } from 'react/cjs/react.development'
 import FavContext from '../store/favorites-context'
 import PostList from '../components/posts/PostList'
 
