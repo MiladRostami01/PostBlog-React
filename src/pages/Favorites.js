@@ -4,7 +4,7 @@ import FavContext from '../store/favorites-context'
 import PostList from '../components/posts/PostList'
 
 function Favorites() {
-  const favoritesCtx = useContext(FavContext)
+  const favoritesCtx = useContext(FavContext);
 
   let content
   if(favoritesCtx.totalFavorites === 0){

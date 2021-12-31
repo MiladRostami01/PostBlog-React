@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom'
-import { useContext } from 'react/cjs/react.development'
-import FavContext from '../../../store/favorites-context'
 import styles from './Navigation.module.css'
+import FavContext from '../../../store/favorites-context'
 
 function Navigation() {
-  const favoritesCtx =useContext(FavContext)
+  const favoritesCtx =useContext(FavContext);
 
   return (
     <header className={styles.header}>
