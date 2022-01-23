@@ -9,9 +9,6 @@
 ### Screenshot
 ![](./src/assets/img/Screenshot.png)
 
-### Live
-- فقط قبلش فیلترشکنت رو روشن کن *_^ [Live](https://post-blog-react.vercel.app/)
-
 
 # Getting Started with Create React App
 
