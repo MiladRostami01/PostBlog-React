@@ -18,7 +18,7 @@ function Navigation() {
             <Link to={'new-post'} >NewPost </Link>
           </li>
           <li>
-            <Link to={'favorites'} >Favorites <span>{favoritesCtx.totalFavorites}</span> </Link>
+            <Link to={'t'} >Favorites <span>{favoritesCtx.totalFavorites}</span> </Link>
             
           </li>
         </ul>

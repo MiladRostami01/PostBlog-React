@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <AllPosts />} />
         <Route path="new-post" element={<NewPost />} />
-        <Route path="favorites" element={<Favorites />} />
+        <Route path="t" element={<Favorites />} />
       </Routes>
     </Layout>
   )
