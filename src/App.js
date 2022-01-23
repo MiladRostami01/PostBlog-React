@@ -5,7 +5,7 @@ import Layout from './components/layout/Layout'
 // Routes elements 
 import AllPosts from './pages/AllPosts'
 import NewPost from './pages/NewPost'
-import Favorites from './pages/Favorites'
+import Favorites from "./pages/Favorites"
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={ <AllPosts />} />
         <Route path="new-post" element={<NewPost />} />
-        <Route path="t" element={<Favorites />} />
+        <Route path="favorites" element={<Favorites />} />
       </Routes>
     </Layout>
   )
